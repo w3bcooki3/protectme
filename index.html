@@ -27,6 +27,7 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./landing-page/css/landing-page.css">
     <!-- ========== End Stylesheet ========== -->
 
     <!-- Favicon links -->
@@ -322,6 +323,7 @@
         </header>
 
 
+
         <!-- Hero -->
         <section class="hero-section-wrap hero-home2">
             <div class="hero-section-content-wrap">
@@ -338,176 +340,7 @@
                     </div>
                 </div>
             </div>
-            <div class="custom-container">
-
-                <div class="hero-contact-form-wrap">
-                    <div class="hero-contact-form-inner-wrap">
-                        <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
-                            <div class="mac-buttons d-flex align-items-center">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-
-                            <div class="action-btn d-flex align-items-center">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-
-                        <div class="hero-contact-form-header d-flex align-items-center justify-content-between">
-                            <p>You can reach us anytime via <a href="#!">contact@protect.org</a></p>
-
-                            <a href="" class="our-expert-team-box d-flex align-items-center">
-                                <div class="our-expert-team-box-inner d-flex align-items-center">
-                                    <div class="imgs d-flex align-items-center">
-                                        <img src="./assets/imgs/small-img-4.png" alt="team" />
-                                        <img src="./assets/imgs/small-img-3.png" alt="team" />
-                                        <img src="./assets/imgs/small-img-2.png" alt="team" />
-                                        <img src="./assets/imgs/small-img-1.png" alt="team" />
-                                    </div>
-                                    <p>
-                                        Meet
-                                        <span>Our Experts</span>
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="hero-contact-form">
-                            <form action="assets/mail/contact2.php" method="POST" class="contact-form d-flex">
-                                <div class="input-main-row">
-                                    <div class="input-row">
-                                        <div class="input-group">
-                                            <label for="first_name">First Name</label>
-                                            <input type="text" placeholder="First Name" id="first_name" name="first_name"/>
-                                        </div>
-                                        <div class="input-group">
-                                            <label for="last_name">Last Name</label>
-                                            <input type="text" placeholder="Last Name" id="last_name" name="last_name"/>
-                                        </div>
-                                    </div>
-                                    <div class="input-row">
-                                        <div class="input-group">
-                                            <label for="email">Email</label>
-                                            <input type="email" placeholder="Your Email" id="email" name="email"/>
-                                        </div>
-                                    </div>
-                                    <div class="input-row">
-                                        <div class="input-group phone-number">
-                                            <select class="number-prefix">
-                                                <option value="uk">UK</option>
-                                                <option value="us">US</option>
-                                            </select>
-                                            <label for="phone_number">Phone Number</label>
-                                            <input type="text" name="phone_number" placeholder="Your Number" />
-                                        </div>
-                                        <div class="input-group">
-                                            <label for="country">Country</label>
-                                            <input type="text" name="country" placeholder="Your Country" />
-                                        </div>
-                                    </div>
-                                    <div class="input-row">
-                                        <div class="input-group">
-                                            <label>What's the type of your company?</label>
-                                            <div class="choice-a-company flex-wrap d-flex">
-                                                <div class="radio-box">
-                                                    <input type="radio" id="saas" name="choice_company" value="SAAS"/>
-                                                    <label for="saas">SAAS</label>
-                                                </div>
-                                                <div class="radio-box">
-                                                    <input type="radio" id="banking" name="choice_company" value="Banking"/>
-                                                    <label for="banking">Banking</label>
-                                                </div>
-                                                <div class="radio-box">
-                                                    <input type="radio" id="agency" name="choice_company" value="Agency"/>
-                                                    <label for="agency">Agency</label>
-                                                </div>
-                                                <div class="radio-box">
-                                                    <input type="radio" id="business" name="choice_company" value="Business"/>
-                                                    <label for="business">Business</label>
-                                                </div>
-                                                <div class="radio-box">
-                                                    <input type="radio" id="other" name="choice_company" value="Other"/>
-                                                    <label for="other">Other</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="input-row">
-                                        <div class="input-group">
-                                            <label>What you need from us?</label>
-                                            <div class="feedback-checkboxes d-flex flex-wrap">
-                                                <div class="feedback-item">
-                                                    <input type="checkbox" id="app_design" name="services[]" value="App design"/>
-                                                    <label for="app_design">App design</label>
-                                                </div>
-                                                <div class="feedback-item">
-                                                    <input type="checkbox" id="web_design" name="services[]" value="Web design"/>
-                                                    <label for="web_design">Web design</label>
-                                                </div>
-                                                <div class="feedback-item">
-                                                    <input type="checkbox" id="branding" name="services[]" value="Branding"/>
-                                                    <label for="branding">Branding</label>
-                                                </div>
-                                                <div class="feedback-item">
-                                                    <input type="checkbox" id="development" name="services[]" value="Development"/>
-                                                    <label for="development">Development</label>
-                                                </div>
-                                                <div class="feedback-item">
-                                                    <input type="checkbox" id="cloud_service" name="services[]" value="Cloud service"/>
-                                                    <label for="cloud_service">Cloud service</label>
-                                                </div>
-                                                <div class="feedback-item">
-                                                    <input type="checkbox" id="other" name="services[]" value="Other"/>
-                                                    <label for="other">Other</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="input-main-row">
-                                    <div class="input-row">
-                                        <div class="input-group">
-                                            <label for="message">Message</label>
-                                            <textarea name="message" id="message" placeholder="Leave us a message...."></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="input-row">
-                                        <div class="input-group">
-                                            <label for="budget">Budget</label>
-                                            <input id="pi_input" type="range" min="0" max="200" step="1" style="padding: 0;" name="budget" />
-                                            <div class="budget-values d-flex align-items-center justify-content-between w-full">
-                                                <div class="left-value">$<span id="budget-value">300</span>k</div>
-                                                <div class="right-value">$200k</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="input-row">
-                                        <div class="input-group input-checkbox">
-                                            <input type="checkbox" id="privacy_policy_accept" name="privacy_policy_accept" value="1">
-                                            <label for="privacy_policy_accept">Click the box and agree to our <a href="#">terms and conditions.</a></a></label>
-                                        </div>
-                                    </div>
-                                    <div class="input-row">
-                                        <div class="input-group">
-                                            <button class="theme-btn" id="submit">Get Started</button>
-                                        </div>
-                                    </div>
-                                    <!-- Alert Message -->
-                                    <div class="input-row">
-                                        <div class="input-group alert-notification">
-                                            <div id="alert-message" class="alert-msg"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+/
         </section>
 
 
@@ -853,13 +686,18 @@
             </div>
         </section>
 
+        <!------------Categories version 2---------->
+
+        
+
+        <!------------Categories version 2---------->
+
         <section class="landing-feature-area">
             <div class="custom-container">
                 <div class="section-header d-flex align-items-center justify-content-between">
                     <div class="left">
                         <h5 class="section-subtitle">Categories</h5>
-                        <h1 class="section-title">Report Cyber Threats
-                            Template </h1>
+                        <h1 class="section-title">Report Cyber Threats </h1>
                     </div>
                     <p>Everything you need - Discover reporting options below and stand strong against cyber threats.</p>
                 </div>
@@ -872,7 +710,7 @@
                                 <i class="las la-check"></i> Phishing
                             </h3>
                             <p>When someone tries to trick you into sharing personal information, like passwords or credit card details, through fake messages or emails. 
-                                f you get an email that seems suspicious, asking for sensitive info or directing you to a strange website, select this category.</p>
+                                If you get an email that seems suspicious, asking for sensitive info or directing you to a strange website, select this category.</p>
                         </div>
                     </div>
                     <div class="landing-feature-item-box">
@@ -1120,248 +958,121 @@
             </div>
         </section> -->
 
-
-        <!-- About -->
-        <section class="about2-area">
+        <!-- Faq -->
+        <section class="faq-area  faq-style-2-area">
             <div class="custom-container">
-                <div class="about2-inner-box">
+                <div class="faq-inner">
 
-                    <div class="about2-header">
-                        <h5 class="section-subtitle">SPECIALIZATION</h5>
-                        <h1 class="section-title">What should our company do for you</h1>
-                    </div>
-                    
-                    <ul class="nav nav-tabs about2-tabs" role="tablist">
-                        <li class="nav-item">
-                            <button class="nav-link active" id="business_strategy-tab" data-bs-toggle="tab" href="#business_strategy"
-                                role="tab" aria-controls="business_strategy" aria-selected="true">
-                                <span class="icon"><img src="./assets/imgs/hwd-icon-1.svg" alt="Icon"/></span> Business Strategy
-                            </button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link" id="market_analysis-tab" data-bs-toggle="tab" href="#market_analysis" role="tab"
-                                aria-controls="market_analysis" aria-selected="false">
-                                <span class="icon"><img src="./assets/imgs/hwd-icon-4.svg" alt="Icon"/></span> Market Analysis
-                            </button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link" id="process_optimation-tab" data-bs-toggle="tab" href="#process_optimation" role="tab"
-                                aria-controls="process_optimation" aria-selected="false">
-                                <span class="icon"><img src="./assets/imgs/hwd-icon-6.svg" alt="Icon"/></span> Process Optimization
-                            </button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link" id="performance_improvement-tab" data-bs-toggle="tab" href="#performance_improvement" role="tab"
-                                aria-controls="performance_improvement" aria-selected="false">
-                                <span class="icon"><img src="./assets/imgs/hwd-icon-2.svg" alt="Icon"/></span> Performance Improvement
-                            </button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link" id="entrepreneurial_guidance-tab" data-bs-toggle="tab" href="#entrepreneurial_guidance" role="tab"
-                                aria-controls="entrepreneurial_guidance" aria-selected="false">
-                                <span class="icon"><img src="./assets/imgs/hwd-icon-3.svg" alt="Icon"/></span> Entrepreneurial Guidance
-                            </button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link" id="business_strategy-tab" data-bs-toggle="tab" href="#business_strategy" role="tab"
-                                aria-controls="business_strategy" aria-selected="false">
-                                <span class="icon"><img src="./assets/imgs/hwd-icon-5.svg" alt="Icon"/></span> Organizational Excellence
-                            </button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link" id="market_analysis-tab" data-bs-toggle="tab" href="#market_analysis" role="tab"
-                                aria-controls="market_analysis" aria-selected="false">
-                                <span class="icon"><img src="./assets/imgs/hwd-icon-4.svg" alt="Icon"/></span> Market Research
-                            </button>
-                        </li>
-                    </ul>
+                    <h5 class="section-subtitle">FAQ SECTION</h5>
+                    <h1 class="section-title">Frequently asked questions</h1>
 
-
-                    <div class="tab-content about2-tab-content">
-                        <div class="tab-pane fade show active" id="business_strategy" role="tabpanel" aria-labelledby="business_strategy-tab">
-                            <div class="about2-tab-content-body d-flex gap-24">
-                                <div class="img-box">
-                                    <img src="./assets/imgs/about2-tab-1.png" alt="About"/>
+                    <div class="faq-items-box">
+                        <div class="faq-col">
+                            <div  id="accordion">
+                                <div class="faq-box">
+                                    <h5 class="card-header" id="headingOne">
+                                        <button data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <div class="icon">
+                                                <img src="./assets/imgs/question-icon.svg" alt="Icon" />
+                                            </div>  What should I do if I think I have been a victim of a cybercrime?
+                                        </button>
+                                    </h5>
+        
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            If you suspect you have been a victim of a cybercrime, take immediate action. 
+                                            Secure your devices, change passwords, and disconnect from the internet. 
+                                            Report the incident to our website or your local law enforcement agency, and consider seeking assistance from cybersecurity professionals.
+                                        </div>
+                                    </div>
                                 </div>
-
-                                <div class="content-box card-h">
-                                    <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
-                                        <div class="mac-buttons d-flex align-items-center">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-            
-                                        <div class="action-btn d-flex align-items-center">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
+                                <div class="faq-box">
+                                    <h5 class="card-header" id="headingTwo">
+                                        <button data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <div class="icon">
+                                                <img src="./assets/imgs/question-icon.svg" alt="Icon" />
+                                            </div> How can I protect myself from cyber threats and stay safe online?
+                                        </button>
+                                    </h5>
+        
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            Protecting yourself from cyber threats starts with practicing good cybersecurity hygiene. 
+                                            Use strong and unique passwords, keep your devices and software up to date, be cautious of suspicious emails or links, and regularly backup your important data. 
+                                            Stay informed about the latest cybersecurity best practices through our educational resources.
                                         </div>
                                     </div>
-
-                                    <h1>
-                                        <span class="icon"><img src="./assets/imgs/hwd-icon-1.svg" alt="Icon"/></span> Elevating your business strategy for success
-                                    </h1>
-                                    <div class="content">
-                                        <p>In the ever-evolving landscape of business, are in robust and well defined strategies is the compassing that guides your journey to success. At Strategic Business Solutions, we specialize in crafting business strategies that go beyond mere plans.</p>
-                                        <p>They are blueprints for growth, innovation, solution and enduring compassing that prosperity. </p>
+                                </div>
+                                <div class="faq-box">
+                                    <h5 class="card-header" id="headingThree">
+                                        <button data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            <div class="icon">
+                                                <img src="./assets/imgs/question-icon.svg" alt="Icon" />
+                                            </div> What information should I include when reporting a cybercrime?
+                                        </button>
+                                    </h5>
+        
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            When reporting a cybercrime, include as much information as possible, such as the nature of the incident, any evidence you have, the date and time it occurred, and any relevant details about the perpetrator or suspicious activities. 
+                                            The more information you provide, the better equipped law enforcement or cybersecurity experts will be to investigate the incident. 
+                                        </div>
                                     </div>
-                                    <a href="#" class="theme-btn">
-                                        <i class="iconoir-arrow-up-right"></i> 
-                                    </a>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="tab-pane fade" id="market_analysis" role="tabpanel" aria-labelledby="market_analysis-tab">
-                            <div class="about2-tab-content-body d-flex gap-24">
-                                <div class="img-box">
-                                    <img src="./assets/imgs/about2-tab-2.png" alt="About"/>
+                        <div class="faq-col">
+                            <div id="accordion2">
+                                <div class="faq-box">
+                                    <h5 class="card-header" id="headingFour">
+                                        <button data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="true" aria-controls="collapseFour">
+                                            <div class="icon">
+                                                <img src="./assets/imgs/question-icon.svg" alt="Icon" />
+                                            </div> Can I report cybercrimes anonymously?
+                                        </button>
+                                    </h5>
+        
+                                    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour"
+                                        data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Yes, we understand the need for anonymity in certain situations. 
+                                            You have the option to submit a report anonymously on our website. 
+                                            However, providing contact information can be helpful for follow-up questions or updates on your reported incident. 
+                                            Rest assured that we treat all information with strict confidentiality.
+                                        </div>
+                                    </div>
                                 </div>
-
-                                <div class="content-box card-h">
-                                    <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
-                                        <div class="mac-buttons d-flex align-items-center">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-            
-                                        <div class="action-btn d-flex align-items-center">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                    </div>
-
-                                    <h1>
-                                        <span class="icon"><img src="./assets/imgs/hwd-icon-4.svg" alt="Icon"/></span> Unveiling the comprehensive market analysis
-                                    </h1>
-                                    <div class="content">
-                                        <p>In the ever-evolving landscape of business, knowledge is power. At Strategic Business Solutions, we offering an unparalleled lens through which you can decipher the complexities and is of your industry. Our Market Analysis serve services provide you with the critical insights needed to make informed decisions. we offering an unparalleled lens</p>
-                                    </div>
-                                    <a href="#" class="theme-btn">
-                                        <i class="iconoir-arrow-up-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                        
-                        <div class="tab-pane fade" id="process_optimation" role="tabpanel" aria-labelledby="process_optimation-tab">
-                            <div class="about2-tab-content-body d-flex gap-24">
-                                <div class="img-box">
-                                    <img src="./assets/imgs/about2-tab-3.png" alt="About"/>
-                                </div>
-
-                                <div class="content-box card-h">
-                                    <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
-                                        <div class="mac-buttons d-flex align-items-center">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-            
-                                        <div class="action-btn d-flex align-items-center">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
+                                <div class="faq-box">
+                                    <h5 class="card-header" id="headingFive">
+                                        <button data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            <div class="icon">
+                                                <img src="./assets/imgs/question-icon.svg" alt="Icon" />
+                                            </div> How can I contribute to improving cybersecurity efforts?
+                                        </button>
+                                    </h5>
+        
+                                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                        data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Besides reporting cybercrimes, you can raise awareness about cybersecurity among your friends, family, and community. 
+                                            Share our resources, educate others about common threats, and encourage them to adopt secure practices. 
                                         </div>
                                     </div>
-
-                                    <h1>
-                                        <span class="icon"><img src="./assets/imgs/hwd-icon-6.svg" alt="Icon"/></span> Streamline your operations for maximum efficiency
-                                    </h1>
-                                    <div class="content">
-                                        <p>The ever-evolving landscape of business, operational efficiency is the cornerstone of success. At Strategic Business Solutions, we specialize in process optimization a transformative approach that enables your organization</p>
-                                        <p>we specialize in process optimization a transformative approach that enables your organization.</p>
-                                    </div>
-                                    <a href="#" class="theme-btn">
-                                        <i class="iconoir-arrow-up-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                        
-                        <div class="tab-pane fade" id="performance_improvement" role="tabpanel" aria-labelledby="performance_improvement-tab">
-                            <div class="about2-tab-content-body d-flex gap-24">
-                                <div class="img-box">
-                                    <img src="./assets/imgs/about2-tab-4.png" alt="About"/>
-                                </div>
-
-                                <div class="content-box card-h">
-                                    <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
-                                        <div class="mac-buttons d-flex align-items-center">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-            
-                                        <div class="action-btn d-flex align-items-center">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                    </div>
-
-                                    <h1>
-                                        <span class="icon"><img src="./assets/imgs/hwd-icon-2.svg" alt="Icon"/></span> Elevate your business performance to new heights
-                                    </h1>
-                                    <div class="content">
-                                        <p>In today's fast paced and competitive business and landscape, achieving and sustaining high levels of performance is essential for long-term success. At the Strategic Business Solutions, we specialize in helping our is organizations like yours enhance their performance, optimize operations, and achieve peak efficiency. <br>
-                                            At the Strategic Business Solutions.</p>
-                                    </div>
-                                    <a href="#" class="theme-btn">
-                                        <i class="iconoir-arrow-up-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="tab-pane fade" id="entrepreneurial_guidance" role="tabpanel" aria-labelledby="entrepreneurial_guidance-tab">
-                            <div class="about2-tab-content-body d-flex gap-24">
-                                <div class="img-box">
-                                    <img src="./assets/imgs/about2-tab-5.png" alt="About"/>
-                                </div>
-
-                                <div class="content-box card-h">
-                                    <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
-                                        <div class="mac-buttons d-flex align-items-center">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-            
-                                        <div class="action-btn d-flex align-items-center">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                    </div>
-
-                                    <h1>
-                                        <span class="icon"><img src="./assets/imgs/hwd-icon-3.svg" alt="Icon"/></span> Nurturing entrepreneurial excellence using slack
-                                    </h1>
-                                    <div class="content">
-                                        <p>Embarking on the journey of entrepreneurship is an exhilarating endeavor, filled with boundless opportunities and uniq Strategic Business Solutions, we are dedicated to providing you with the indispensable guidance.</p>
-                                        <p>Strategic Business Solutions, we are dedicated to providing you with the indispensable guidance.</p>
-                                    </div>
-                                    <a href="#" class="theme-btn">
-                                        <i class="iconoir-arrow-up-right"></i>
-                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
-
-
-        
-
 
         <!-- News -->
         <section class="news2-area">
@@ -1423,28 +1134,12 @@
                             </a>
                         </div>
                     </div>
-                </div>
-
-                <div class="news2-sticky news2-card d-flex card-h">
-                    <img src="./assets/imgs/bg-shape-blog-sticky.svg" alt="Shape" class="bg-shape"/>
-                    <img src="./assets/imgs/blog-4.jpg" alt="Blog"/>
-                    <div class="news2-card-body">
-                        <div class="meta">
-                            <span class="date">Sep 16, 2022</span>
-                            <a href="#" class="category">#Technology</a>
-                        </div>
-                        <h2><a href="#">Bluebase launches a new X Tap to Pay on smartphone for international and domestic business</a></h2>
-                        <p>Our journey is guided by a clear vision - is to be at the forefront of transformative solutions that shape to the industries and enrich lives. This vision is deeply rooted in our core values: excellence, innovation, integrity, and collaboration.</p>
-                        <a href="#" class="theme-btn">
-                            <i class="iconoir-arrow-up-right"></i>
-                        </a>
-                    </div>
-                </div>
+                </div>-
 
             </div>
         </section>
 
-        <!------- News Highlight ------------------------>
+        <!------- News Highlight -----------------------
 
         <section class="landing-page-hero-area">
             <img src="/landing-page/imgs/bg-shape-2.svg" alt="Shape" class="bg-shape slide-left" />
@@ -1483,7 +1178,7 @@
             </div>
         </section>
 
-        <!------- News Highlight ------------------------------>
+        ------>
 
 
 
