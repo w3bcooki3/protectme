@@ -752,41 +752,41 @@ img {
 
 /*-------------May be categories different version ----------------*/
 /* Landing Feature */
-.landing-feature-area {
+.categories-options {
     background: #F3F6FD;
     padding: 140px 0;
 }
-.landing-feature-area .section-header {
+.categories-options .section-header {
     margin-bottom: 75px;
 }
-.landing-feature-area .section-header p {
+.categories-options .section-header p {
     max-width: 515px;
     margin-bottom: 0;
 }
-.landing-feature-area .section-header .left {
+.categories-options .section-header .left {
     max-width: 619px;
 }
-.landing-feature-items {
+.categories-options-items {
     display: grid;
     gap: 24px;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.landing-feature-item-box {
+.categories-options-item-box {
     background: #ffffff;
     box-shadow: 0px 4px 20px 5px rgb(0, 0, 0, 0.03);
     padding: 24px 24px 50px;
     border-radius: 10px;
 }
-.landing-feature-item-box img {
+.categories-options-item-box img {
     display: block;
     border-radius: 10px;
     margin-bottom: 40px;
     width: 100%;
 }
-.landing-feature-item-box .content-body {
+.categories-options-item-box .content-body {
     padding: 0 10px;
 }
-.landing-feature-item-box h3 {
+.categories-options-item-box h3 {
     font-family: var(--font_yantramanv);
     font-size: 24px;
     font-weight: 500;
@@ -798,7 +798,7 @@ img {
     margin-bottom: 20px;
 }
 .icon-pack-area .section-header ul li i,
-.landing-feature-item-box h3 i {
+.categories-options-item-box h3 i {
     width: 19px;
     height: 19px;
     line-height: 19px;
@@ -811,19 +811,21 @@ img {
     left: 0;
     top: 0;
 }
-.landing-feature-item-box p {
+.categories-options-item-box p {
     color: 1px solid rgb(28 28 28 / 70%);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 0;
 }
-.landing-feature-items .landing-feature-item-box:last-child img {
+.categories-options-items .categories-options-item-box:last-child img {
     margin-bottom: 52px;
 }
-.landing-feature-items .landing-feature-item-box:nth-child(2) img {
+.categories-options-items .categories-options-item-box:nth-child(2) img {
     margin-bottom: 72px;
 }
+
+
 /*-------------May be categories different version ----------------*/
 
 
