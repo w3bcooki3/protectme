@@ -576,6 +576,7 @@
     .feature2-area,
     .about2-area {
         padding-bottom: 140px;
+        margin-top: -152px;
     }
     .about2-area .about2-inner-box {
         padding: 60px;
@@ -792,6 +793,7 @@
     .event-details-area .content-box p,
     .about-service7-area .about-service7-body .about-service7-content .section-header {
         margin-bottom: 50px;
+        margin-top: -120px;
     }
     .event-details-area .content-box .section-header,
     .about-service7-area .about-service7-body .about-service7-content p {
